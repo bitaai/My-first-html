@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device,initial-scale=1.0">
+        <title>my prson page</title>
+    </head>
+    <body>
+         <h1>hi i'm bita سلام من بیتا هستم</h1>
+         <p>i'm a biginner progeraming and i want i'll be fullstak whith django</p>
+         <hr>
+         <!--data part -->
+         <h2> my data</h2>
+         <u1>
+            <li><strong>  age</strong>[40]</li>
+            <li><strong> sity </strong>[kermanshah]</li>
+            <li><strong> goal </strong>[get programing projects]</li>
+          
+
+         </u1>
+         <!--links part-->
+         <h2> conect me</h2>
+         <a href="https://github.com/bitaai"target ="_blank">my github</a>
+         <br>
+         <a href="mailto:bitavarva@gmail.com">my email</a>
+         <hr>
+         <!--form part-->
+         <h2>leave a massage for me</h2>
+         <form>
+            <label for="'name">name:</label>
+            <input type="'text" id="name" placeholder="enter your name">
+            <br><br>
+            <label for="massage">massage:</label>
+            <textarea id="massage" placeholder="write your massage"></textarea>
+            <br><br>
+            <button type="submit">send</button>
+         </form>
+    </body>
+</html>
