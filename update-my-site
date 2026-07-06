@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device,initial-scale=1.0">
+        <title> صفحه شخصی من _ نسخه کامل</title>
+    </head>
+    <body>
+        <!-- بخش هدربا جعبه(div)-->
+         <div style="background-color:#f0f8ff;padding:20px; text-align: center; border-radius:10px;">
+            <h1> <strong> سلام من</strong><span style="color:#2e8b57">[]fdjh</span>هستم</h1>
+            <p><strong> من بک برنامه نویس تازه کار هستم</strong>. ومی خواهم با جنگو فول استک شوم .<br>  
+                اول راهم و تمرینها بسیار خسته کنندهاست<br> اما امیدوارم که موفق شوم</p>
+            <p><em>هر رو یک آجر روی آجر قبلی بگذار</em></p>    
+        </div>
+        <hr>
+        <!-- بخش اطلاعات با دو ستون-->
+        <div style="display:flex;gap: 20px;background-color: #f9f9f9; padding: 15px; border-radius:10px">
+            <!--ستون راست :اطللاعات شخصی-->
+            <div style="flex:  1;">
+                <h2>اطلاعات من </h2>
+                <ul>
+                    <li> <strong>سن:</strong>[40]</li>
+                    <li> <strong>شهر:</strong>[کرمانشاه]</li>
+                    <li><strong>هدف:</strong>درخشش در هنر برنامه نویسی.کسب درآمد  های بالا</li>
+                    <li><strong>وضعیت:</strong><span style="color:#f534f5;">فعال و آماده به کار</span></li>
+                    
+                 </ul>
+            </div>
+            <!--ستون چپ :مهارت ها--> 
+            <div style="flex:  1;">
+            <h2>مهارت های من</h2>
+            <ul>
+                <li>HTML(در حال یادگیری)</li>
+                <li>CSS(ازفردا شروع میشه)</li>
+                <li>python(کمی بلدم اما به زودی مهارتش رو کسب می کنم)</li>
+                <li>Django & Deart(هدف نهایی من هست)</li>
+
+            </ul>
+            </div>
+
+        </div>
+
+        </hr>
+        <!--بخش جدول (تگ جدید)-->
+        <div style ="background-color:#ecdfb3; padding:15px; border-radius: 10px;">
+            <h2>برنامه مطالعه هفتگی</h2>
+            <table border="1" style="width:100%; border-collapse: collapse; text-align: center;">
+                <tr style="background-color:#ffc107;">
+                    <th>روز</th>
+                    <th>موضوع</th>
+                    <th>وضعیت</th>
+                </tr>
+                <tr>
+                    <td>یکشنبه</td>
+                    <td>CSS</td>
+                    <td style="color: orange;"> در حال انجام</td>
+                </tr>
+                <td>دوشنبه</td>
+                <td>python</td>
+                <td style="color: red;">برنامه ریزی شده</td>
+            </table>
+        </div>
+        <hr>
+        <!--بخش لینک ها و فرم-->
+        <div style="background-color: #e6f7ff; padding: 15px; border-radius: 10px">
+            <h2>ارتباط بامن </h2>
+            <a href="https://github.com/bitaai" target="_blank">گیت هاب من</a>
+            <br>
+            <a href="malito: bitavarva@gmai.com">ایمیل من</a>
+            <br><br>
+            <h3>یک پیام برای من بگذار</h3>
+            <form>
+                <lable for="name">نام:</lable>
+                <input type="text" id="name". placeholder="نام خود را وارد کنید">
+                <br><br>
+                <lable lable="message">پیام:</lable>
+                <texterea id="message" placeholder="پیام خود را اینجا بنویس!" rows="3"></texterea>
+                <br><br>
+                <botton type="submit" style="background-color:#007bff; color:white; padding: 10px 20px; border: none; border-radius: 5px;">ارسال پیام:</botton>
+            </form>
+        </div>
+    
+    </body>
+</html>
